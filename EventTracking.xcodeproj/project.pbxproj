@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		D0A653191E7FAE2F0045703D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A653181E7FAE2F0045703D /* main.m */; };
 		D0A6531C1E7FAE2F0045703D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A6531B1E7FAE2F0045703D /* AppDelegate.m */; };
-		D0A6531F1E7FAE2F0045703D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A6531E1E7FAE2F0045703D /* ViewController.m */; };
 		D0A653221E7FAE2F0045703D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A653201E7FAE2F0045703D /* Main.storyboard */; };
 		D0A653241E7FAE2F0045703D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A653231E7FAE2F0045703D /* Assets.xcassets */; };
 		D0A653271E7FAE2F0045703D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A653251E7FAE2F0045703D /* LaunchScreen.storyboard */; };
+		D0E108161E7FC06800AA9E3E /* CBWGlobalUserStatisticsConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0E1080D1E7FC06800AA9E3E /* CBWGlobalUserStatisticsConfig.plist */; };
+		D0E108171E7FC06800AA9E3E /* CBWHookUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E1080F1E7FC06800AA9E3E /* CBWHookUtility.m */; };
+		D0E108181E7FC06800AA9E3E /* QDUserStastisticsEventsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E108111E7FC06800AA9E3E /* QDUserStastisticsEventsTool.m */; };
+		D0E108191E7FC06800AA9E3E /* UIButton+UserStastics.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E108131E7FC06800AA9E3E /* UIButton+UserStastics.m */; };
+		D0E1081A1E7FC06800AA9E3E /* UIViewController+UserStastistics.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E108151E7FC06800AA9E3E /* UIViewController+UserStastistics.m */; };
+		D0E108201E7FC07100AA9E3E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E1081D1E7FC07100AA9E3E /* SecondViewController.m */; };
+		D0E108211E7FC07100AA9E3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E1081F1E7FC07100AA9E3E /* ViewController.m */; };
+		D0E108241E7FC90800AA9E3E /* UITapGestureRecognizer+UserStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E108231E7FC90800AA9E3E /* UITapGestureRecognizer+UserStatistics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +27,25 @@
 		D0A653181E7FAE2F0045703D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0A6531A1E7FAE2F0045703D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0A6531B1E7FAE2F0045703D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D0A6531D1E7FAE2F0045703D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D0A6531E1E7FAE2F0045703D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D0A653211E7FAE2F0045703D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0A653231E7FAE2F0045703D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0A653261E7FAE2F0045703D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0A653281E7FAE2F0045703D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E1080D1E7FC06800AA9E3E /* CBWGlobalUserStatisticsConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CBWGlobalUserStatisticsConfig.plist; sourceTree = "<group>"; };
+		D0E1080E1E7FC06800AA9E3E /* CBWHookUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWHookUtility.h; sourceTree = "<group>"; };
+		D0E1080F1E7FC06800AA9E3E /* CBWHookUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWHookUtility.m; sourceTree = "<group>"; };
+		D0E108101E7FC06800AA9E3E /* QDUserStastisticsEventsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDUserStastisticsEventsTool.h; sourceTree = "<group>"; };
+		D0E108111E7FC06800AA9E3E /* QDUserStastisticsEventsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDUserStastisticsEventsTool.m; sourceTree = "<group>"; };
+		D0E108121E7FC06800AA9E3E /* UIButton+UserStastics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UserStastics.h"; sourceTree = "<group>"; };
+		D0E108131E7FC06800AA9E3E /* UIButton+UserStastics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UserStastics.m"; sourceTree = "<group>"; };
+		D0E108141E7FC06800AA9E3E /* UIViewController+UserStastistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UserStastistics.h"; sourceTree = "<group>"; };
+		D0E108151E7FC06800AA9E3E /* UIViewController+UserStastistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UserStastistics.m"; sourceTree = "<group>"; };
+		D0E1081C1E7FC07100AA9E3E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D0E1081D1E7FC07100AA9E3E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D0E1081E1E7FC07100AA9E3E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0E1081F1E7FC07100AA9E3E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0E108221E7FC90800AA9E3E /* UITapGestureRecognizer+UserStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+UserStatistics.h"; sourceTree = "<group>"; };
+		D0E108231E7FC90800AA9E3E /* UITapGestureRecognizer+UserStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+UserStatistics.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +78,10 @@
 		D0A653161E7FAE2F0045703D /* EventTracking */ = {
 			isa = PBXGroup;
 			children = (
+				D0E1081B1E7FC07100AA9E3E /* VC */,
+				D0E1080C1E7FC06800AA9E3E /* TrackingTool */,
 				D0A6531A1E7FAE2F0045703D /* AppDelegate.h */,
 				D0A6531B1E7FAE2F0045703D /* AppDelegate.m */,
-				D0A6531D1E7FAE2F0045703D /* ViewController.h */,
-				D0A6531E1E7FAE2F0045703D /* ViewController.m */,
 				D0A653201E7FAE2F0045703D /* Main.storyboard */,
 				D0A653231E7FAE2F0045703D /* Assets.xcassets */,
 				D0A653251E7FAE2F0045703D /* LaunchScreen.storyboard */,
@@ -77,6 +97,35 @@
 				D0A653181E7FAE2F0045703D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E1080C1E7FC06800AA9E3E /* TrackingTool */ = {
+			isa = PBXGroup;
+			children = (
+				D0E1080E1E7FC06800AA9E3E /* CBWHookUtility.h */,
+				D0E1080F1E7FC06800AA9E3E /* CBWHookUtility.m */,
+				D0E1080D1E7FC06800AA9E3E /* CBWGlobalUserStatisticsConfig.plist */,
+				D0E108101E7FC06800AA9E3E /* QDUserStastisticsEventsTool.h */,
+				D0E108111E7FC06800AA9E3E /* QDUserStastisticsEventsTool.m */,
+				D0E108121E7FC06800AA9E3E /* UIButton+UserStastics.h */,
+				D0E108131E7FC06800AA9E3E /* UIButton+UserStastics.m */,
+				D0E108141E7FC06800AA9E3E /* UIViewController+UserStastistics.h */,
+				D0E108151E7FC06800AA9E3E /* UIViewController+UserStastistics.m */,
+				D0E108221E7FC90800AA9E3E /* UITapGestureRecognizer+UserStatistics.h */,
+				D0E108231E7FC90800AA9E3E /* UITapGestureRecognizer+UserStatistics.m */,
+			);
+			path = TrackingTool;
+			sourceTree = "<group>";
+		};
+		D0E1081B1E7FC07100AA9E3E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D0E1081C1E7FC07100AA9E3E /* SecondViewController.h */,
+				D0E1081D1E7FC07100AA9E3E /* SecondViewController.m */,
+				D0E1081E1E7FC07100AA9E3E /* ViewController.h */,
+				D0E1081F1E7FC07100AA9E3E /* ViewController.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +159,7 @@
 				TargetAttributes = {
 					D0A653131E7FAE2F0045703D = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3ZDX854EGM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +189,7 @@
 			files = (
 				D0A653271E7FAE2F0045703D /* LaunchScreen.storyboard in Resources */,
 				D0A653241E7FAE2F0045703D /* Assets.xcassets in Resources */,
+				D0E108161E7FC06800AA9E3E /* CBWGlobalUserStatisticsConfig.plist in Resources */,
 				D0A653221E7FAE2F0045703D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A6531F1E7FAE2F0045703D /* ViewController.m in Sources */,
+				D0E108241E7FC90800AA9E3E /* UITapGestureRecognizer+UserStatistics.m in Sources */,
+				D0E1081A1E7FC06800AA9E3E /* UIViewController+UserStastistics.m in Sources */,
 				D0A6531C1E7FAE2F0045703D /* AppDelegate.m in Sources */,
+				D0E108211E7FC07100AA9E3E /* ViewController.m in Sources */,
+				D0E108181E7FC06800AA9E3E /* QDUserStastisticsEventsTool.m in Sources */,
+				D0E108201E7FC07100AA9E3E /* SecondViewController.m in Sources */,
+				D0E108191E7FC06800AA9E3E /* UIButton+UserStastics.m in Sources */,
+				D0E108171E7FC06800AA9E3E /* CBWHookUtility.m in Sources */,
 				D0A653191E7FAE2F0045703D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZDX854EGM;
 				INFOPLIST_FILE = EventTracking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.EventTracking;
@@ -285,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZDX854EGM;
 				INFOPLIST_FILE = EventTracking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.EventTracking;
@@ -311,6 +370,7 @@
 				D0A6532D1E7FAE2F0045703D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

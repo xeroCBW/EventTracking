@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIButton+UserStastics.h
 //  EventTracking
 //
 //  Created by chenbowen on 2017/3/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UIButton (UserStastics)
 
 @end
-

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ViewController</key>
+	<dict>
+		<key>PageEventIDs</key>
+		<dict>
+			<key>Enter</key>
+			<string>ViewController_ENTER</string>
+			<key>Leave</key>
+			<string>ViewController_LEAVE</string>
+		</dict>
+		<key>ControlEventIDs</key>
+		<dict>
+			<key>viewControllerButton1:</key>
+			<string>viewControllerButton1_ACTION</string>
+			<key>viewControllerButton2:</key>
+			<string>viewControllerButton2_ACTION</string>
+		</dict>
+	</dict>
+	<key>SecondViewController</key>
+	<dict>
+		<key>PageEventIDs</key>
+		<dict>
+			<key>Enter</key>
+			<string>SecondViewController_ENTER</string>
+			<key>Leave</key>
+			<string>SecondViewController_LEAVE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
